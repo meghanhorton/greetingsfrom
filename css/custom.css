@@ -1,0 +1,164 @@
+html{
+	position: relative;
+	margin-bottom: 40px;
+}
+
+body{
+	background: #fff;
+	padding: 0; margin: 0;
+	padding-top: 50px;
+}
+
+footer{
+	text-align: center;
+	margin-top: 5em; 
+	font-size: 0.75em;
+	color: #333;
+}
+
+h1{
+	font-family: 'Grand Hotel','Helvetica Neue','Arial',sans-serif;
+	color: #6b0101;
+	line-height: 0;
+/*	text-align: center;*/
+}
+	h1 a, h1 a:hover{
+		color: #6b0101;
+	}	
+	.navbar{
+		padding: 0;
+		margin: 0;
+	}
+
+#ask{
+	font-family: 'Grand Hotel','Helvetica Neue','Arial',sans-serif;
+	font-size: 4em;
+	color: #0B75B7;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+
+#map{
+	display: block;
+	text-align: center;
+	-webkit-box-shadow: inset 0px 0px 100px rgba(226,220,208,1), 0px 0px 30px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:    inset 0px 0px 100px rgba(226,220,208,1), 0px 0px 30px rgba(0, 0, 0, 0.3);
+	box-shadow:         inset 0px 0px 100px rgba(226,220,208,1), 0px 0px 30px rgba(0, 0, 0, 0.3);
+}
+	#map embed, #map img{
+		margin: auto;
+		max-height: 100%;
+		max-width: 100%;
+	}
+
+#postcard{
+	margin-top: 10%;
+}
+.postcard{
+	color: #555;
+	background: #f2ede4;
+	padding: 20px;
+	overflow: scroll;
+	display: table-cell;
+	vertical-align: top;
+	-webkit-box-shadow: inset 0px 0px 100px rgba(226,220,208,1), 0px 0px 30px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:    inset 0px 0px 100px rgba(226,220,208,1), 0px 0px 30px rgba(0, 0, 0, 0.3);
+	box-shadow:         inset 0px 0px 100px rgba(226,220,208,1), 0px 0px 30px rgba(0, 0, 0, 0.3);
+}	
+	@media only screen and (min-width: 800px) {
+		.slide-right{
+			float: right;
+		}
+		.stamp-india{
+			background-image: url('../images/stamp.png');
+			background-repeat: no-repeat;
+			background-position: top right;
+		}
+		.stamp-congo{
+			background-image: url('../images/stamp_congo.png');
+			background-repeat: no-repeat;
+			background-position: top right;
+		}
+		.stamp-nepal{
+			background-image: url('../images/stamp_nepal.png');
+			background-repeat: no-repeat;
+			background-position: top right;
+		}
+		.stamp-dc{
+			background-image: url('../images/stamp_dc.png');
+			background-repeat: no-repeat;
+			background-position: top right;
+		}
+	}
+
+	@media only screen and (max-width: 800px){
+		h1{
+			font-size: 1.25em;
+		}
+		html{
+			margin-bottom: 30px;
+		}
+		#ask{
+			display: none;
+		}
+	}
+
+.letter p{
+	font-family: 'Handlee','Helvetica Neue','Arial',sans-serif;
+	font-size: 1.25em;
+	line-height: 150%;
+	margin: 5% 0 1em 0;
+	padding: 0;
+}
+	.letter p.signature{
+		font-family: 'Sacramento',serif;
+		font-size: 3em;
+		line-height: 100%;
+		padding: 0; 
+		margin: 0;
+	}
+
+	.signature a{
+		color: #777;
+	}
+
+	.letter p.sponsor{
+		font-family: 'Helvetica Neue','Arial',sans-serif;
+		font-size: 1em;
+	}
+
+.address{
+	padding: 0 30px;
+}
+.address p{
+	font-family: 'Handlee','Helvetica Neue','Arial',sans-serif;
+	font-size: 1.5em;
+	margin: 1em 0 0 0;
+	padding: 0;
+	line-height: 100%;
+	border-bottom: 1px solid #ccc;
+}
+
+.address.col-sm-5{
+	margin-top: 20%;
+}
+
+.hint{
+	background: rgba(118,74,43,0.125);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+	a.hint{
+		text-decoration: none;
+		color: #555;
+	}
+
+.navbar-nav>li>a.no-pad{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
